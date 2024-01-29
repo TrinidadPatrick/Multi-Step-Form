@@ -1,0 +1,15 @@
+.left_side {
+    background: url("./bg-sidebar-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+    .left_side {
+        background: url("./bg-sidebar-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}

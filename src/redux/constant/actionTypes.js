@@ -1,0 +1,4 @@
+export const actionTypes = {
+    SET_SUBSCRIPTIONS: "SET_SUBSCRIPTIONS",
+    GET_SUBSCRIPTION: "GET_SUBSCRIPTION",
+}

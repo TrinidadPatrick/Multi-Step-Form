@@ -1,0 +1,27 @@
+body {
+    min-height: 100vh;
+    background-color: white;
+}
+
+.information{
+    border-color: red;
+}
+
+.required{
+    font-weight: 100;
+    color: red;
+    display: block;
+}
+
+.information{
+    animation-name: shake;
+    animation-duration: 0.3s;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(2px) }
+    50% { transform: translateX(-2px) }
+    75% { transform: translateX(2px) }
+    100% { transform: translateX(0) }
+}
